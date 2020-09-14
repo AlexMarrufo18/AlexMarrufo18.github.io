@@ -22,6 +22,10 @@ hr {
     background-color: #b71c1c;
 }
 
+.contenedor {
+    text-align: center;
+}
+
 .contenedor1 {
     text-align: right;
 }
