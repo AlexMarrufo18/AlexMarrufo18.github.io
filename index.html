@@ -3,48 +3,58 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Alex Marrufo">
+    <meta name="copyright" content="&copy; 2020 Alex Marrufo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Personal</title>
+    <link rel="stylesheet" href="styles/estilopersonal.css">
 </head>
 
-<body background="imagenes/fondo1.JPG">
-    <br />
-    <nav>
-        <a href="about.html">Experiencias</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
-
+<body>
     <header>
-        <center>Bienvenidos a mi página principal</center>
-        <br />
-        <center><img src="imagenes/fondo.JPG" alt="Alex" width="500" height="300"></center>
-
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">PRINCIPAL</a></li>
+                <li><a href="about.html">EXPERIENCIAS</a></li>
+                <li><a href="contact.html">CONTACTO</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="sidebar1">
-        <div>
-            <h3>Nombre: </h3>
-            <p><strong> Marrufo Huamán Alex Anders </p>
-            <h3>Nacionalidad: </h3>
-            <p><strong> Peruano </p>
-            <h3>Cumpleaños: </h3>
-            <p><strong>  18 de enero </p>
-            <h3>Lugar de origen: </h3>
-            <p><strong>  Bambamarca </strong> - Hualgayoc - Cajamarca </p>
-            <h3>Estudia Ingenieria de sistemas </h3>
-            <p><strong>    en Universidad Nacional de Cajamarca</strong> "Norte de la Universidad Peruana"</p>
+    <hr>
+    <section>
+        <div class="contenedor">
+            <center><em>Bienvenidos a mi página principal</em></center>
+            <br/>
+            <center><img src="imagenes/fondo.JPG" alt="ALex" width="400" height="300"></center>
+            <div class="textoencima">
+                <img id="img_log" src="images/logo1.png" alt="">
+                <center>
+                    <p>Mi nombre es <em>Alex Anders Marrufo Huamán</em></p>
+                    <p>Soy de Bambamarca-Cajamarca y estudio Ingeniería de Sistemas en la Universidad Nacional de Cajamarca.</p>
+                    <p>Soy un chico alegre, amable, respetuoso, me gusta ayudar a los demás, hacer deporte, escuchar música, correr moto en mis ratos libres.</p>
+                </center>
+            </div>
         </div>
-
-        <h3></h3>
-        <h3></h3>
     </section>
+
+    <hr>
+    <div class="contenedor1">
+        <div class="col s4">
+            <p>Sígeme en las redes sociales: </p>
+            <a href="https://www.facebook.com/alexmh.marrufo/"> <img id="i_redes" src="imagenes/i_fb1.png" alt=""></a>
+            <a href="https://www.instagram.com/alexmhmarrufo/"> <img id="i_redes" src="imagenes/i_itg1.png" alt=""></a>
+            <a href="https://github.com/AlexMarrufo18"> <img id="i_redes" src="imagenes/i_gh1.png" alt=""></a>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div>
+            <address>Autor: Alex Marrufo <br>
+                    &copy; 2020 - Ingeniería Web - <abbr title="Universidad Nacional de Cajamarca ">UNC</abbr></address>
+        </div>
+    </footer>
 </body>
 
-<footer>
-    <br/>
-    </div>
-    <center>© Alex Marrufo 2020 </center>
-    </div>
-</footer>
-
-</html>
+</html>|

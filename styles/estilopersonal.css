@@ -1,0 +1,38 @@
+body {
+    background: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 1400px;
+    margin: auto;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(204, 65, 65);
+}
+
+footer {
+    background-color: rgb(204, 65, 65);
+    color: white;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: #b71c1c;
+}
+
+.contenedor1 {
+    text-align: right;
+}
+
+.menu {
+    color: black;
+}
+
+#seccion {
+    width: 1150px;
+    padding: 1px 1px;
+    background: rgb(197, 236, 222);
+    height: 200px;
+}
