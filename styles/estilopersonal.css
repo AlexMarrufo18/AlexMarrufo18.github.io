@@ -1,42 +1,128 @@
-body {
-    background: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    width: 1400px;
-    margin: auto;
+/*Estilos generales*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
 }
 
-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: rgb(204, 65, 65);
+p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Estilos para la navegacion*/
+
+.nav {
+    padding-top: 0.5px;
+    font-family: serif;
+    background-color: rgb(204, 65, 65);
+    margin-bottom: 10em;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+}
+
+.nav_logo {
+    width: 3em;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav_title {
+    color: #ffffff;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_ul {
+    list-style: none;
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+    margin-left: 50vw;
+}
+
+.nav_li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.nav_li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav_li a:hover {
+    background-color: black;
+}
+
+.nav_title:hover {
+    color: #81f781;
+}
+
+.contenedor {
+    padding: 150px;
+    text-align: center;
+}
+
+.contenedor1 {
+    text-align: right;
+    color: black;
+    margin-right: 40px;
+    font-style: italic;
+}
+
+.redes {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    padding: 2px;
+}
+
+.redes a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.redes a:hover {
+    color: rgb(144, 144, 238);
+}
+
+.experiencias {
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.hobies {
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.comidas {
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.direccion {
+    margin-left: 30px;
+    font-style: italic;
 }
 
 footer {
     background-color: rgb(204, 65, 65);
     color: white;
     text-align: center;
-}
-
-hr {
-    height: 2px;
-    background-color: #b71c1c;
-}
-
-.contenedor {
-    text-align: center;
-}
-
-.contenedor1 {
-    text-align: right;
-}
-
-.menu {
-    color: black;
-}
-
-#seccion {
-    width: 1150px;
-    padding: 1px 1px;
-    background: rgb(197, 236, 222);
-    height: 200px;
+    padding: 5px;
+    margin-bottom: 0px;
 }
