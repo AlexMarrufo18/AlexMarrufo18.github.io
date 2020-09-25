@@ -1,122 +1,73 @@
-/*Estilos generales*/
+/* General Styles */
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
-}
-
-p {
-    margin-bottom: 20px;
-    margin-left: 20px;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #D8D8D8;
 }
 
 
-/* Estilos para la navegacion*/
+/* Navigation */
 
 .nav {
-    padding-top: 0.5px;
-    font-family: serif;
+    font-family: 'Tangerine', serif;
     background-color: rgb(204, 65, 65);
-    margin-bottom: 10em;
-    width: 100%;
-    z-index: 100;
-    position: fixed;
+    padding: 5px;
+    margin-bottom: 1em;
 }
 
-.nav_logo {
-    width: 4em;
+.nav__logo {
+    width: 3em;
     vertical-align: middle;
     display: inline-block;
 }
 
-.nav_title {
+.nav__title {
     color: #ffffff;
     font-size: 2em;
     display: inline-block;
     vertical-align: middle;
 }
 
-.nav_ul {
-    list-style: none;
-    overflow: hidden;
+.nav__ul {
     list-style: none;
     display: inline-block;
-    margin-left: 35vw;
+    margin-left: 40vw;
+    /*Esto va a depender del titulo y el logo*/
 }
 
-.nav_li {
+.nav__li {
     display: inline-block;
-    padding: 5px;
-    font-size: 20px;
+    padding: 0 5px;
 }
 
-.nav_li a {
+.nav__li a {
     display: block;
     color: #ffffff;
     text-decoration: none;
-    padding: 20px;
+    font-size: 2em;
 }
 
-.nav_li a:hover {
-    background-color: black;
+.nav__li a:hover {
+    color: #ff8000;
 }
 
-.nav_title:hover {
+.nav__title:hover {
     color: #81f781;
 }
 
-.contenedor {
-    padding: 150px;
-    text-align: center;
-}
 
-.contenedor1 {
-    text-align: right;
-    color: black;
-    margin-right: 40px;
-    font-style: italic;
-}
+/* Content */
 
-.redes {
-    font-size: 2.5em;
-    margin-bottom: 2em;
-    padding: 2px;
-}
-
-.redes a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-.redes a:hover {
-    color: rgb(144, 144, 238);
-}
-
-.experiencias {
-    margin-left: 30px;
-    font-style: italic;
-}
-
-.hobies {
-    margin-left: 30px;
-    font-style: italic;
-}
-
-.comidas {
-    margin-left: 30px;
-    font-style: italic;
-}
-
-.direccion {
-    margin-left: 30px;
-    font-style: italic;
+.content {
+    background-color: #ffffff;
+    margin: 1em;
+    min-height: 77.6vh;
+    padding: 1em;
 }
 
 
@@ -153,12 +104,23 @@ body {
     background: #3b5998;
 }
 
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+
 .social ul li .icon-instagram {
     background: orangered;
 }
 
 .social ul li .icon-github {
-    background: #0f0f0f;
+    background: black;
+}
+
+.social ul li .icon-mail4 {
+    background: #ae181f;
+}
+
+.social ul li .icon-envelop {
+    background: #666666;
 }
 
 .social ul li a:hover {
@@ -168,10 +130,33 @@ body {
     /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
 
-footer {
+
+/* footer */
+
+.footer {
     background-color: rgb(204, 65, 65);
-    color: white;
+    /* position: fixed;
+    bottom: 0%; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3.5em;
+    padding: 18px 0;
+    position: fixed;
+}
+
+.footer__p {
+    color: cyan;
     text-align: center;
-    padding: 5px;
-    margin-bottom: 0px;
+}
+
+.footer__p a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.footer__p a:hover {
+    color: #ff8000;
 }
