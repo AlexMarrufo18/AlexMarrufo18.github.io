@@ -5,150 +5,250 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiencias</title>
-    <link rel="stylesheet" href="styles/estilopersonal.css">
+
+    <link rel="shortcut icon" href="imagenes/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
     <link rel="stylesheet" href="styles/icomoon/style.css">
+    <link rel="stylesheet" href="styles/estilopersonal.css">
+    <link rel="stylesheet" href="styles/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+
 </head>
 
 <body>
+    <!--Barra de navigation -->
+    <nav class="navbar navbar-dark fixed-top">
+        <img src="imagenes/logo.png" alt="" class="nav_logo"></a>
+        <span class="nav_title">Página Personal</span>
+        <ul class="nav_ul">
+            <li class="nav_li"><a href="index.html" class="icon-home3">INICIO</a></li>
+            <li class="nav_li"><a href="about.html" class="icon-airplane">EXPERIENCIAS</a></li>
+            <li class="nav_li"><a href="contact.html" class="icon-user-plus">CONTACTO</a></li>
+            <li class="nav_li"><a href="carta05.html" class="icon-envelop">CARTA</a></li>
+        </ul>
+    </nav>
+
+    <!--contenido-->
+    <section class="contenedor-principal">
+        <section class="container">
+            <!--Carrusel-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade tamaño" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/a1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/a2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/a3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <!--Experiencias-->
+        <section class="experiencias">
+            <br>
+            <h2>Experiencias</h2>
+            <div>
+                <br>
+                <p>He participado en el censo
+                    <br>que se realizó el día
+                    <br>Domingo 22 de octubre del 2017 - Cajamarca
+                </p>
+            </div>
+
+            <!--Estudios-->
+            <br>
+            <h2>Formación Académica</h2>
+
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="imagenes/u1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/u2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/u3.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/u4.jpg" alt="">
+                    </li>
+                </ul>
+                <p>Estudio Ingeniería de Sistemas
+                    <br>en Universidad Nacional de Cajamarca
+                    <br>desde el año 2015
+                </p>
+            </div>
+
+            <!--Lugares-->
+            <br>
+            <h2>Lugares que visitó</h2>
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="imagenes/l1.jpg" alt="">
+                        <strong>Piura-2013</strong><br>
+                        <p>Plaza de armas</p>
+                    </li>
+                    <li>
+                        <img src="imagenes/l2.jpg" alt="">
+                        <strong>Chiclayo-2017</strong><br>
+                        <p>Ruinas Patapo</p>
+                    </li>
+                    <li>
+                        <img src="imagenes/l3.jpg" alt="">
+                        <strong>Chachapoyas-2015</strong><br>
+                        <p>Kuelap</p>
+                    </li>
+                    <li>
+                        <img src="imagenes/l4.jpg" alt="">
+                        <strong>Cajamarca</strong><br>
+                        <p>Plaza de armas</p>
+                    </li>
+                </ul>
+                <p>He tenido la oportunidad de viajar por distintas partes de nuestro Perú,
+                    <br>experiencias únicas que quedan marcado dentro de mí,
+                    <br>viajar me ayudó a conocer mas de nuestro querido territorio nacional
+                    <br>lo cual me ayudadó a valorar mi cultura Cajamarquina.
+                </p>
+            </div>
+        </section>
+        <!--Hobies-->
+        <section class="hobies">
+            <br><br>
+            <h2>Hobies</h2>
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="imagenes/f1.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/f2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/f3.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/f4.jpeg" alt="">
+                    </li>
+                </ul>
+                <p>Me gusta practicar muchos deportes entre ellos:
+                    <br>fútbol, ciclismo, fronton, gimnasio, correr moto,
+                    <br>estos me ayudan a mantenerme saludable.
+                </p>
+            </div>
+
+            <!--Música-->
+            <br>
+            <h3>Escuchar música</h3>
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="imagenes/m1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/m2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/m3.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="imagenes/m4.jpg" alt="">
+                    </li>
+                </ul>
+                <p>La música parte de la vida, arte de expresar sentimientos,
+                    <br>emociones, vivencias, estados de ánimo, etc.
+                    <br>Escuchar música te ayuda a salir,
+                    <br>por un momento de lo cotidiano.
+                </p>
+            </div>
+        </section>
+
+        <!--Comidas-->
+        <section class="comidas">
+            <br>
+            <h2>Comidas favoritas</h2>
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="imagenes/c1.jpg" alt="">
+                        <p><strong>Cuy con papa</strong></p>
+                    </li>
+                    <li>
+                        <img src="imagenes/c2.jpg" alt="">
+                        <p><strong>Chcicharron con mote</strong></p>
+                    </li>
+                    <li>
+                        <img src="imagenes/c3.jpg" alt="">
+                        <p><strong>Ceviche</strong></p>
+                    </li>
+                    <li>
+                        <img src="imagenes/c4.jpg" alt="">
+                        <p><strong>Pollo a la barsa</strong></p>
+                    </li>
+                </ul>
+                <p>La gastronomía de nuestro querido Perú es muy buena
+                    <br>y diversa y al mismo tiempo una de las mejores del mundo.
+                    <br>En nuestra nuestra bella Cajamarca se preparan
+                    <br>una gran variedad de platos, lo que ayuda a que nuestra cultura
+                    <br>tambien sea muy reconocida por ese motivo, en particular
+                    <br>unos de mis platos favoritos son: el famoso cuy con papa,
+                    <br>frito con ceviche, chicharron con mote y
+                    <br>el rico pollo a la brasa.
+                </p>
+                <br><br><br>
+            </div>
+        </section>
+    </section>
+
+    <!--Barra sociales-->
     <div>
-        <nav class="nav">
-            <img src="imagenes/logo1.png" alt="Alex" class="nav_logo">
-            <span class="nav_title"> Proyecto Personal</span>
-            <ul class="nav_ul">
-                <li class="nav_li"><a href="index.html" class="icon-home3">INICIO</a></li>
-                <li class=" nav_li "><a href="about.html" class="icon-airplane">EXPERIENCIAS</a></li>
-                <li class="nav_li "><a href="contact.html" class="icon-user-plus">CONTACTO</a></li>
-                <li class="nav_li "><a href="carta05.html" class="icon-mail4">CARTA</a></li>
-            </ul>
-        </nav>
+        <section class="content">
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="http://www.facebook.com/alexmh.marrufo/" target="_blank" class="icon-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/alexmhmarrufo/" target="_blank" class="icon-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="https://mail.google.com/mail" target="_blank" class="icon-mail4"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.github.com/AlexMarrufo18" target="_blank" class="icon-github"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.pinterest.com/usuario" target="_blank" class="icon-pinterest"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
-    <hr>
-    <section class="foto">
-        <div class="contenedor">
-            <img src="imagenes/alex.JPG" alt="Alex Marrufo" title="Alex Marrufo" width="500" height="300">
-        </div>
-    </section>
 
-    <hr>
-    <section class="experiencias">
-        <h2>Experiencias</h2>
-        <div>
-            <br>
-            <strong>Participación Censal</strong>
-            <br>
-            <p>Domingo 22 de octubre del 2017 - Cajamarca</p>
-        </div>
-
-        <br>
-        <h2>Formación Académica</h2>
-
-        <div>
-            <br>
-            <p>Ingeniería de Sistemas en Universidad Nacional de Cajamarca</p>
-        </div>
-        <img src="imagenes/unc.jpg" alt="UNC" title="Universidad Nacional de Cajamarca" width="500" height="300">
-
-        <hr>
-        <br>
-        <h2>Lugares que visitó</h2>
-        <div>
-            <div>
-                <br>
-                <strong>Piura-2013</strong><br>
-                <p>Plaza de armas</p>
-            </div>
-            <img src="imagenes/plazaPiura.png" alt="Plaza Piura" width="500" height="300">
-
-            <div>
-                <br>
-                <strong>Chachapoyas-2015</strong><br>
-                <p>Kuelap</p>
-            </div>
-            <img src="imagenes/Kuelap.jpg" alt="Kuelap" width="500" height="300">
-
-            <div>
-                <br>
-                <strong>Chiclayo-2017</strong><br>
-                <p>Ruinas Patapo</p>
-            </div>
-            <img src="imagenes/patapo.jpg" alt="Patapo" width="500" height="300">
-        </div>
-    </section>
-
-    <hr>
-    <section class="hobies">
-        <br>
-        <h2>Hobies</h2>
-        <div>
-            <div>
-                <br>
-                <p>Jugar Fútbol</p>
-            </div>
-            <img src="imagenes/futbol.jpg" alt="Alex" width="500" height="300">
-            <img src="imagenes/futbol1.jpeg" alt="Alex" width="500" height="300">
-
-            <hr>
-            <div>
-                <br>
-                <p>Escuchar música</p>
-            </div>
-            <img src="imagenes/musica.jpg" alt="Alex" width="300" height="200">
-            <img src="imagenes/Alan.jpg" alt="Alex" width="300" height="200">
-            <img src="imagenes/avicii.jpg" alt="Alex" width="300" height="200">
-            <img src="imagenes/tiesto.png" alt="Alex" width="300" height="200">
-
-            <hr>
-            <div>
-                <br>
-                <p>Ir al Gym</p>
-            </div>
-            <img src="imagenes/gym.jpg" alt="Alex" width="500" height="300">
-            <img src="imagenes/gym1.jpg" alt="Alex" width="500" height="300">
-        </div>
-    </section>
-
-    <hr>
-    <section class="comidas">
-        <br>
-        <h2>Comidas favoritas</h2>
-        <div>
-            <br>
-            <p>Cuy con papa</p>
-            <img src="imagenes/cuyPapa.jpg" alt="Alex" width="350" height="200"><br>
-
-            <br>
-            <p>Chcicharron con mote</p>
-            <img src="imagenes/chicharron.jpg" alt="Alex" width="350" height="200"><br>
-
-            <br>
-            <p>Ceviche</p>
-            <img src="imagenes/ceviche.jpg" alt="Alex" width="350" height="200">
-        </div>
-    </section>
-
-    <hr>
-    <section class="content">
-        <div class="social">
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/alexmh.marrufo/ " target="_blank" class="icon-facebook"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/alexmhmarrufo/ " target="_blank" class="icon-instagram"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/AlexMarrufo18 " target="_blank" class="icon-github"></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <div>
-            <address>Autor: Alex Marrufo <br>
-                    &copy; 2020 - Ingeniería Web - <abbr title="Universidad Nacional de Cajamarca ">UNC</abbr></address>
-        </div>
-    </footer>
+    <div class="footer navbar-dark fixed-bottom">
+        <!-- Navbar content -->
+        <footer class="footer">
+            <p>
+                Autor: Alex Marrufo <br> &copy; 2020 - Ingeniería Web - <abbr title="Universidad Nacional de Cajamarca"> UNC </abbr>
+            </p>
+        </footer>
+    </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="styles/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
 
 </html>

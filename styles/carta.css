@@ -1,26 +1,32 @@
+.main {
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.letter {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px solid #e3e3e3;
+    padding: 2% 4%;
+}
+
 .derecha {
     text-align: right;
-    line-height: 0.3;
     font-style: italic;
 }
 
 .izquierda {
     text-align: left;
-    line-height: 0.3;
     font-style: italic;
 }
 
-body {
-    margin: auto;
-    font-family: 'Times New Roman', Times, serif;
-    width: 1000px;
-    background-color: white;
+.orden {
+    padding-left: 50px;
 }
 
-a:link {
-    color: #767ef5;
-}
-
-a:hover {
-    color: blue;
+.orden2>dd {
+    padding-left: 50px;
 }
