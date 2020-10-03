@@ -1,0 +1,82 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10%;
+}
+
+.content {
+    background-color: rgb(225, 237, 250);
+    margin: 1em;
+    min-height: 77vh;
+    padding: 2em;
+}
+
+.principal {
+    margin-left: 20%;
+    margin-right: 3%;
+}
+
+h4 {
+    text-align: center;
+}
+
+label {
+    background-color: rgb(70, 70, 139);
+    color: white;
+    padding: 3px;
+    width: 170px;
+    text-align: left;
+}
+
+.botones {
+    margin-left: 5px;
+    color: white;
+}
+
+.btn_amarillo {
+    background-color: orange;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.btn_rojo {
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.col-izq {
+    margin-left: 24%;
+    margin-right: 3%;
+}
+
+.ingresar {
+    width: 250px;
+}
+
+.mostrar {
+    width: 150px;
+}
+
+.izq {
+    width: 135px;
+    color: white;
+}
+
+.der {
+    background-color: #f73838;
+    color: white;
+    width: 170px;
+}

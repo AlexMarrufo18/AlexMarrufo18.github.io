@@ -35,7 +35,7 @@
 .nav_ul {
     list-style: none;
     display: inline-block;
-    margin-left: 40vw;
+    margin-left: 30vw;
 }
 
 .nav_li {
@@ -175,7 +175,7 @@
 /* Establecemos los colores de cada red social, aprovechando su class */
 
 .social ul li .icon-instagram {
-    background: rgb(138, 39, 3);
+    background: rgb(245, 101, 49);
 }
 
 .social ul li .icon-github {
@@ -208,12 +208,9 @@
     bottom: 0;
     width: 100%;
     height: 3em;
-    padding: 8px 0;
+    padding: 3px 0;
     position: fixed;
     z-index: 100%;
-}
-
-.footer {
     color: cyan;
     text-align: center;
 }
