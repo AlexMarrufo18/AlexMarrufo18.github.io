@@ -30,15 +30,17 @@
     <br><br><br>
 
     <section class="content">
-        <h4> LAB 07: TALLER DE JAVASCRIPT</h4>
+        <h3> LAB 07: TALLER DE JAVASCRIPT</h3>
         <br>
         <div class="row">
-            <div class="principal">
-                <label class="labAzul" id="ap_nom" for="exampleInputEmail1">Apellidos y nombres:</label>
-                <input class="ingresar" id="i_nom" type="text" autofocus placeholder="Ingreso apellidos y nombres"><br>
-                <label class="labAzul" id="fech" for="exampleInputEmail1">Fecha de nacimiento:</label>
-                <input class="ingresar" id="i_fech" type="date" placeholder="Ingreso fecha de nacimiento">
-            </div>
+            <form action="" class="principal">
+                <div class="form-group">
+                    <label class="labAzul" id="ap_nom" for="exampleInputEmail1">Apellidos y nombres:</label>
+                    <input class="ingresar" id="i_nom" type="text" autofocus placeholder="Ingreso apellidos y nombres"><br>
+                    <label class="labAzul" id="fech" for="exampleInputEmail1">Fecha de nacimiento:</label>
+                    <input class="ingresar" id="i_fech" type="date" placeholder="Ingreso fecha de nacimiento">
+                </div>
+            </form>
             <br><br>
             <div class="botones">
                 <button class="btn_amarillo" id="b_a" onclick="extraer();">Extraer</button>
@@ -48,22 +50,26 @@
 
         <br><br>
         <div class="row">
-            <div class="col-izq">
-                <label class="azul" id="c_ap">Apellido paterno:</label>
-                <input class="mostrar" id="ap" type="text"><br>
-                <label class="azul" id="c_am">Apellido materno:</label>
-                <input class="mostrar" id="am" type="text"><br>
-                <label class="azul" id="c_nom">Nombres:</label>
-                <input class="mostrar" id="nom" type="text">
-            </div>
-            <div class="col-der">
-                <label class="rojo" id="c_lap">Longitud del apellido:</label>
-                <input class="mostrar" id="l_ap" type="text"><br>
-                <label class="rojo" id="c_ed">Edad:</label>
-                <input class="mostrar" id="ed" type="text"><br>
-                <label class="rojo" id="c_ml">Mes en letras:</label>
-                <input class="mostrar" id="m_l" type="text">
-            </div>
+            <form action="" class="miformulario2">
+                <div class="form-group">
+                    <label class="azul" id="c_ap">Apellido paterno:</label>
+                    <input class="mostrar" id="ap" type="text"><br>
+                    <label class="azul" id="c_am">Apellido materno:</label>
+                    <input class="mostrar" id="am" type="text"><br>
+                    <label class="azul" id="c_nom">Nombres:</label>
+                    <input class="mostrar" id="nom" type="text">
+                </div>
+            </form>
+            <form action="" class="miformulario3">
+                <div class="form-group">
+                    <label class="rojo" id="c_lap">Longitud del apellido:</label>
+                    <input class="mostrar" id="l_ap" type="text"><br>
+                    <label class="rojo" id="c_ed">Edad:</label>
+                    <input class="mostrar" id="ed" type="text"><br>
+                    <label class="rojo" id="c_ml">Mes en letras:</label>
+                    <input class="mostrar" id="m_l" type="text">
+                </div>
+            </form>
         </div>
         <br><br>
 
