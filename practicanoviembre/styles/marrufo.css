@@ -15,14 +15,19 @@
 
 .formulario {
     width: 18%;
-    height: 450px;
+    height: 100%;
     border: solid 1px;
     display: inline-block;
     vertical-align: top;
 }
 
+p {
+    padding: 10px;
+    text-align: left;
+}
+
 img {
-    width: 200px;
+    width: 80%;
 }
 
 .rojo {
@@ -39,6 +44,7 @@ img {
 
 .inmobiliario {
     background-color: red;
+    margin-left: 2px;
 }
 
 .talento {
