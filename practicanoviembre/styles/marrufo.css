@@ -1,0 +1,54 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 20px;
+    width: 97%;
+    display: flex;
+    text-align: center;
+}
+
+.formulario {
+    width: 18%;
+    height: 450px;
+    border: solid 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 200px;
+}
+
+.rojo {
+    color: red;
+}
+
+.anaranjado {
+    color: orange;
+}
+
+.morado {
+    color: fuchsia;
+}
+
+.inmobiliario {
+    background-color: red;
+}
+
+.talento {
+    background-color: orange;
+}
+
+.politica {
+    background-color: fuchsia;
+}
+
+.turismo {
+    background-color: red;
+}
